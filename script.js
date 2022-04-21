@@ -11,7 +11,7 @@ const gameBoard = document.getElementById("game-board")
 function main(currentTime){
     if (gameOver){
        if (confirm('YOU LOST! PRESS OK TO RESTART')){
-           window.location = 'https://gutsofhyrule.github.io/snake/'
+           window.location = window.location.href('./index.html')
        }
        return
     }
